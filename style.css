@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-image: url("img/logo2.jpg");
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    margin-bottom: 20px;
+}
+
+#aboutme{
+    text-align: center;
+    font-family: 'Amatic SC';
+}
+
+
+#aboutme h3{
+    font-size: 24px;
+    margin: 0 5%;
+}
+
+#aboutme ol{
+    margin-top: 20px;
+    text-align: justify;
+    margin: 20px 6%;
+    font-size: 20px;
+}
+
+#aboutme b{
+    color: #326647;
+}
+
+#gallery{
+    margin: 0 5%;
+    font-family: 'Amatic SC';
+    text-align: center;
+}
+
+#gallery img{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+#contact{
+    font-family: 'Amatic SC';
+    margin: 20px 5px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#contact a{
+    color: black;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Amatic SC';
+    background-color:#326647;
+    color: white;
+    padding: 5%;
+    font-size: 20px;
+}
+
+footer a{
+    color:darkorange;
+    text-decoration: none;
+}
+
+
+@media (min-width: 750px){
+  
+    #aboutme h3{
+        font-size: 26px;
+    }
+    #aboutme ol{
+        font-size: 30px;
+    }
+    #gallery h2{
+        font-size: 30px;
+    }
+    #gallery img{
+        margin: 10px;
+        width: 45%;
+    }
+    #contact h2,p{
+        font-size: 26px;
+    }
+    footer{
+        padding: 2%;
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 1024px){
+
+    #aboutme ol li{
+        font-weight: bolder;
+    }
+    #gallery img{
+        width: 30%;
+    }
+    #contact h2,p{
+        font-size: 30px;
+    }
+    footer{
+        padding: 2%;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1440px){
+
+    #gallery img{
+        margin: 3px 3px 0 0 ;
+        width: 20%;
+    }
+    #aboutme h3{
+        font-size: 30px;
+    }
+    #contact h2,p{
+        font-size: 25px;
+    }
+    footer{
+        padding: 6px;
+        font-size: 26px;
+    }
+}
+
+
+
+
